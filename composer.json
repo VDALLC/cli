@@ -1,0 +1,19 @@
+{
+    "name": "vda/cli",
+    "type": "library",
+    "description": "CLI library",
+    "keywords": ["cli"],
+    "require": {
+        "php": ">=5.3.23"
+    },
+    "autoload": {
+        "psr-0": { "": "" }
+    },
+    "target-dir": "Vda/Cli",
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-trunk": "1-dev"
+        }
+    }
+}
